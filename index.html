@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam Singh | Portfolio</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+
+  
+    
+
+</head>
+<body class="font-inter text-gray-800 bg-gray-50 dark:bg-gray-900 dark:text-gray-200 transition-colors duration-300">
+    <header class="fixed top-0 left-0 w-full bg-white bg-opacity-90 dark:bg-gray-900 dark:bg-opacity-90 shadow-sm z-50 backdrop-blur-sm transition-all duration-300">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600 dark:text-blue-400 font-poppins">KS</a>
+            
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                
+            </div>
+            
+            <div class="flex items-center space-x-4">
+                <button id="theme-toggle" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
+                    <i class="fas fa-moon dark:hidden"></i>
+                    <i class="fas fa-sun hidden dark:block text-yellow-400"></i>
+                </button>
+                
+                <button id="mobile-menu-button" class="md:hidden p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden bg-white dark:bg-gray-800 shadow-md rounded-b-lg mx-4 hidden transition-all duration-300 transform origin-top">
+            <div class="flex flex-col p-4 space-y-4">
+                <a href="#about" class="mobile-nav-link">About</a>
+                <a href="#skills" class="mobile-nav-link">Skills</a>
+                <a href="#projects" class="mobile-nav-link">Projects</a>
+                <a href="#education" class="mobile-nav-link">Education</a>
+                <a href="#contact" class="mobile-nav-link">Contact</a>
+            </div>
+        </div>
+        
+    </header>
+    
+    <main>
+        
+        <!-- Hero Section -->
+         
+        <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<div id="tsparticles" class="absolute inset-0 z-0"></div>
+
+<div class="absolute inset-0 bg-[url('grid-pattern.svg')] opacity-5 dark:opacity-10"></div>
+<div class="absolute inset-0 overflow-hidden z-0">
+  <div class="absolute top-0 left-0 w-64 h-64 bg-blue-400 rounded-full filter blur-3xl opacity-10 animate-float"></div>
+  <div class="absolute bottom-0 right-0 w-96 h-96 bg-purple-500 rounded-full filter blur-3xl opacity-10 animate-float-delay"></div>
+</div>
+        
+        <p id="typing" class="text-xl md:text-2xl mt-4 text-gray-600 dark:text-gray-300 leading-relaxed"></p>
+
+
+        <section id="hero" class="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden">
+            <div class="absolute inset-0 bg-[url('grid-pattern.svg')] opacity-5 dark:opacity-10"></div>
+            <div class="absolute inset-0 overflow-hidden z-0">
+              <div class="absolute top-0 left-0 w-64 h-64 bg-blue-400 rounded-full filter blur-3xl opacity-10 animate-float"></div>
+              <div class="absolute bottom-0 right-0 w-96 h-96 bg-purple-500 rounded-full filter blur-3xl opacity-10 animate-float-delay"></div>
+            </div>
+            <div class="container mx-auto px-6 py-12 grid md:grid-cols-2 gap-8 items-center relative z-10">
+
+
+                <div data-aos="fade-right" data-aos-delay="100">
+                    <h1 class="hero-heading overflow-hidden text-5xl md:text-6xl font-bold leading-tight">
+                        <span class="block reveal-line">Hi, I'm</span>
+                        <span class="block reveal-line bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Satyam Singh</span>
+                      </h1>
+                      
+                      <div class="typing-container">
+                        <p id="typingo" class="typing-text text-xl md:text-2xl mt-4 text-gray-600 dark:text-gray-300 leading-relaxed"></p>
+                        <span class="typing-cursor">|</span> <!-- Optional cursor element -->
+                      </div>
+
+                    <p class="mt-6 text-gray-600 dark:text-gray-400 max-w-xl leading-relaxed">
+                        I build exceptional digital experiences with a focus on performance, scalability, and user experience.
+                    </p>
+                    
+                    <div class="mt-8 flex flex-wrap gap-4 relative">
+                        <a href="#contact" class="btn-primary magnetic-btn hover:shadow-xl hover:shadow-blue-500/20 transform hover:-translate-y-1 transition-all duration-300 group">
+                          Get in touch
+                          <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                        <div class="relative group">
+                            <a href="#projects" class="btn-secondary magnetic-btn relative z-10">
+                              View my work
+                              <i class="fas fa-briefcase ml-2"></i>
+                            </a>
+                            <div class="absolute -inset-1 bg-blue-500 rounded-lg blur opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                          </div>
+
+                          <button id="download-resume" class="btn-primary magnetic-btn inline-flex items-center gap-2 group">
+                            <i class="fas fa-file-download group-hover:scale-125 transition-transform"></i>
+                            Download My Resume
+                          </button>
+                                              
+                    </div>
+                </div>
+
+
+                <div class="relative" data-aos="fade-left" data-aos-delay="300">
+                    <!-- Glowing background effect -->
+                    <div class="absolute -inset-4 bg-gradient-to-tr from-blue-500 to-purple-600 rounded-full opacity-10 blur-xl animate-pulse-slow"></div>
+                    
+                    <!-- Main profile container -->
+                    <div class="relative group h-full">
+                        <!-- Glass morphism effect -->
+                        <div class="relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl shadow-2xl p-1 aspect-square max-w-md mx-auto overflow-hidden border border-white/30 dark:border-gray-700/30 transition-all duration-500 hover:shadow-blue-500/30 h-full">
+                            <!-- Gradient overlay -->
+                            <div class="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-500 opacity-10 dark:opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
+                            
+                            <!-- Profile image slideshow container -->
+                            <div class="h-full w-full rounded-xl overflow-hidden transform-style-preserve-3d relative">
+                                <!-- All profile images -->
+                                <img 
+                                    src="img1.jpg" 
+                                    alt="Satyam Singh" 
+                                    class="profile-slide absolute inset-0 w-full h-full object-cover rounded-xl "
+                                    data-tilt
+                                    data-tilt-max="5"
+                                    data-tilt-speed="400"
+                                    data-tilt-perspective="1000"
+                                />
+                                <!-- <img 
+                                    src="pic2.jpg" 
+                                    alt="Satyam Singh" 
+                                    class="profile-slide absolute inset-0 w-full h-full object-cover rounded-xl "
+                                    data-tilt
+                                    data-tilt-max="5"
+                                    data-tilt-speed="400"
+                                    data-tilt-perspective="1000"
+                                /> -->
+                                
+                               
+                            </div>
+                       
+                            
+                            <!-- Secondary floating badge -->
+                            <div class="absolute top-3 left-3 w-12 h-12 bg-white dark:bg-gray-800 rounded-full border-4 border-white dark:border-gray-800 shadow-lg flex items-center justify-center transition-all duration-500 group-hover:-rotate-12 z-20">
+                                <div class="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white">
+                                    <i class="fas fa-laptop-code text-sm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Floating tech icons - Positioned below the main container -->
+                    <div class="absolute -bottom-8 left-0 right-0 flex justify-center space-x-4 z-10">
+                        <div class="tech-icon animate-float">
+                            <i class="fab fa-react text-blue-400 text-xl"></i>
+                        </div>
+                        <div class="tech-icon animate-float-delay">
+                            <i class="fab fa-js text-yellow-400 text-xl"></i>
+                        </div>
+                        <div class="tech-icon animate-float">
+                            <i class="fab fa-node-js text-green-500 text-xl"></i>
+                        </div>
+                    </div>
+                    
+                    <!-- Navigation dots -->
+                   <!-- In your HTML - Update the navigation dots section -->
+<div class="absolute bottom-4 left-0 right-0 flex justify-center space-x-2 z-10">
+    <button class="slide-dot w-2 h-2 rounded-full bg-blue-400 dark:bg-blue-500 opacity-50 transition-all duration-300" data-index="0"></button>
+    <button class="slide-dot w-2 h-2 rounded-full bg-blue-400 dark:bg-blue-500 opacity-50 transition-all duration-300" data-index="1"></button>
+    <button class="slide-dot w-2 h-2 rounded-full bg-blue-400 dark:bg-blue-500 opacity-50 transition-all duration-300" data-index="2"></button>
+    <button class="slide-dot w-2 h-2 rounded-full bg-blue-400 dark:bg-blue-500 opacity-50 transition-all duration-300" data-index="3"></button>
+</div>
+                </div>
+                
+                         
+                        </div>
+                    </div>
+                    
+               
+
+            <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+                <a href="#about" class="w-10 h-16 rounded-full border-2 border-blue-500 flex items-start justify-center p-1">
+                  <span class="w-3 h-3 bg-blue-500 rounded-full animate-scroll"></span>
+                </a>
+              </div>
+        </section>
+
+       <!-- About Section -->
+<section id="about" class="py-20 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-gray-800 transition-colors duration-1000">
+    
+    <div class="container mx-auto px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="section-title inline-block">
+                    <span class="relative">
+                        <span class="absolute -bottom-1 left-0 w-full h-1 bg-blue-200 dark:bg-blue-900 rounded-full"></span>
+                        <span class="relative z-10 font-handwritten text-4xl md:text-5xl text-blue-600 dark:text-blue-400">
+                            About Me
+                        </span>
+                    </span>
+                </h2>
+                <div class="mt-4 h-1 w-20 bg-blue-400 dark:bg-blue-500 mx-auto rounded-full" data-aos="fade-up" data-aos-delay="100"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 items-start">
+                <!-- Animated Signature -->
+                <div class="hidden md:block relative" data-aos="fade-right">
+                    <div class="sticky top-28">
+                        <div class="relative w-48 h-48 mx-auto">
+                            <div class="absolute inset-0 bg-blue-100 dark:bg-blue-900/30 rounded-full animate-pulse opacity-70"></div>
+                            <div class="absolute inset-4 border-4 border-blue-400 dark:border-blue-500 rounded-full animate-spin-slow"></div>
+                            <div class="absolute inset-8 flex items-center justify-center">
+                                <div class="text-center">
+                                    <div class="font-handwritten text-4xl text-blue-600 dark:text-blue-400 mb-2">Satyam</div>
+                                    <div class="font-handwritten text-2xl text-gray-700 dark:text-gray-300">Singh</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-8 text-center">
+                            <div class="inline-block px-4 py-2 bg-blue-100 dark:bg-blue-900/30 rounded-full text-blue-600 dark:text-blue-400 font-medium">
+                                <span class="inline-block animate-bounce">👋</span> Hello World!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Content -->
+                <div class="md:col-span-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-white dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 border border-gray-200 dark:border-gray-700 hover:shadow-2xl transition-all duration-500">
+                        <div class="space-y-6">
+                            <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 relative pl-6 border-l-4 border-blue-400 dark:border-blue-500">
+                                <span class="absolute -left-3.5 top-0 w-6 h-6 rounded-full bg-blue-400 dark:bg-blue-500 flex items-center justify-center text-white">
+                                    <i class="fas fa-code text-sm"></i>
+                                </span>
+                                I'm a <span class="font-semibold text-blue-600 dark:text-blue-400">passionate software developer</span> specializing in building modern web applications and solving complex problems. With a strong foundation in Computer Science and Engineering, I approach challenges with a systematic mindset and a keen eye for detail.
+                            </p>
+
+                            <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 relative pl-6 border-l-4 border-purple-400 dark:border-purple-500">
+                                <span class="absolute -left-3.5 top-0 w-6 h-6 rounded-full bg-purple-400 dark:bg-purple-500 flex items-center justify-center text-white">
+                                    <i class="fas fa-robot text-sm"></i>
+                                </span>
+                                My journey has taken me from <span class="font-semibold text-purple-600 dark:text-purple-400">AI-powered chatbots</span> to full-stack web applications. I continuously enhance my skills through <span class="decoration-blue-400">cutting-edge projects</span> and stay updated with the latest industry trends.
+                            </p>
+
+                            <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 relative pl-6 border-l-4 border-green-400 dark:border-green-500">
+                                <span class="absolute -left-3.5 top-0 w-6 h-6 rounded-full bg-green-400 dark:bg-green-500 flex items-center justify-center text-white">
+                                    <i class="fas fa-heart text-sm"></i>
+                                </span>
+                                I'm particularly passionate about creating <span class="font-semibold text-green-600 dark:text-green-400">scalable, maintainable code</span> and developing user-centric applications that deliver exceptional experiences.
+                            </p>
+                        </div>
+
+                        
+                        <!-- Interactive Tech Stack -->
+                        <div class="mt-10">
+                            <h3 class="text-xl font-semibold mb-4 text-center font-handwritten text-blue-600 dark:text-blue-400">
+                                My Tech Universe
+                            </h3>
+                            <div class="flex flex-wrap justify-center gap-3" id="tech-stack">
+                                <!-- These will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Skills Section -->
+<section id="skills" class="py-20 bg-gray-50 dark:bg-gray-900/50">
+    <div class="container mx-auto px-6">
+        <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+        
+        <div class="mt-12 grid md:grid-cols-2 gap-8">
+            <!-- Programming Languages -->
+            <div data-aos="fade-up" data-aos-delay="100" class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
+                <div class="flex items-center mb-6">
+                    <div class="w-10 h-10 bg-blue-100 dark:bg-blue-900/50 rounded-lg flex items-center justify-center mr-4">
+                        <i class="fas fa-code text-blue-600 dark:text-blue-400 text-lg"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold font-poppins text-blue-600 dark:text-blue-400">Programming Languages</h3>
+                </div>
+                <div class="space-y-5">
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-blue-50 dark:bg-gray-700 rounded-full flex items-center justify-center mr-4">
+                            <i class="fab fa-js text-yellow-400 text-sm"></i>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">JavaScript</span>
+                                <span class="text-gray-500 dark:text-gray-400">90%</span>
+                            </div>
+                            <div class="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-yellow-400 to-yellow-600 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-blue-50 dark:bg-gray-700 rounded-full flex items-center justify-center mr-4">
+                            <i class="fab fa-python text-blue-600 text-sm"></i>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Python</span>
+                                <span class="text-gray-500 dark:text-gray-400">85%</span>
+                            </div>
+                            <div class="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-blue-500 to-blue-700 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-blue-50 dark:bg-gray-700 rounded-full flex items-center justify-center mr-4">
+                            <i class="fab fa-java text-red-500 text-sm"></i>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Java</span>
+                                <span class="text-gray-500 dark:text-gray-400">75%</span>
+                            </div>
+                            <div class="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-red-500 to-red-700 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-blue-50 dark:bg-gray-700 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-plus-circle text-blue-700 text-sm"></i>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">C++</span>
+                                <span class="text-gray-500 dark:text-gray-400">80%</span>
+                            </div>
+                            <div class="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-purple-500 to-purple-700 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Web Technologies -->
+            <div data-aos="fade-up" data-aos-delay="200" class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
+                <div class="flex items-center mb-6">
+                    <div class="w-10 h-10 bg-blue-100 dark:bg-blue-900/50 rounded-lg flex items-center justify-center mr-4">
+                        <i class="fas fa-globe text-blue-600 dark:text-blue-400 text-lg"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold font-poppins text-blue-600 dark:text-blue-400">Web Technologies</h3>
+                </div>
+                <div class="space-y-5">
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-blue-50 dark:bg-gray-700 rounded-full flex items-center justify-center mr-4">
+                            <i class="fab fa-react text-blue-400 text-sm"></i>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">React</span>
+                                <span class="text-gray-500 dark:text-gray-400">85%</span>
+                            </div>
+                            <div class="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-blue-400 to-blue-600 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-blue-50 dark:bg-gray-700 rounded-full flex items-center justify-center mr-4">
+                            <i class="fab fa-node-js text-green-500 text-sm"></i>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Node.js</span>
+                                <span class="text-gray-500 dark:text-gray-400">80%</span>
+                            </div>
+                            <div class="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-green-500 to-green-700 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-blue-50 dark:bg-gray-700 rounded-full flex items-center justify-center mr-4">
+                            <i class="fab fa-html5 text-orange-500 text-sm"></i>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">HTML/CSS</span>
+                                <span class="text-gray-500 dark:text-gray-400">95%</span>
+                            </div>
+                            <div class="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-orange-500 to-orange-700 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-blue-50 dark:bg-gray-700 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-server text-indigo-500 text-sm"></i>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">RESTful APIs</span>
+                                <span class="text-gray-500 dark:text-gray-400">85%</span>
+                            </div>
+                            <div class="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-indigo-500 to-indigo-700 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tools & Frameworks -->
+            <div data-aos="fade-up" data-aos-delay="300" class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
+                <div class="flex items-center mb-6">
+                    <div class="w-10 h-10 bg-blue-100 dark:bg-blue-900/50 rounded-lg flex items-center justify-center mr-4">
+                        <i class="fas fa-tools text-blue-600 dark:text-blue-400 text-lg"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold font-poppins text-blue-600 dark:text-blue-400">Tools & Frameworks</h3>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="flex items-center p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                        <div class="w-8 h-8 bg-orange-100 dark:bg-orange-900/20 rounded-full flex items-center justify-center mr-3">
+                            <i class="fab fa-git-alt text-orange-500 text-sm"></i>
+                        </div>
+                        <span class="font-medium">Git</span>
+                    </div>
+                    <div class="flex items-center p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                        <div class="w-8 h-8 bg-blue-100 dark:bg-blue-900/20 rounded-full flex items-center justify-center mr-3">
+                            <i class="fab fa-docker text-blue-500 text-sm"></i>
+                        </div>
+                        <span class="font-medium">Docker</span>
+                    </div>
+                    <div class="flex items-center p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                        <div class="w-8 h-8 bg-yellow-100 dark:bg-yellow-900/20 rounded-full flex items-center justify-center mr-3">
+                            <i class="fab fa-aws text-yellow-600 text-sm"></i>
+                        </div>
+                        <span class="font-medium">AWS</span>
+                    </div>
+                    <div class="flex items-center p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                        <div class="w-8 h-8 bg-green-100 dark:bg-green-900/20 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-database text-green-500 text-sm"></i>
+                        </div>
+                        <span class="font-medium">MongoDB</span>
+                    </div>
+                    <div class="flex items-center p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                        <div class="w-8 h-8 bg-blue-100 dark:bg-blue-900/20 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-database text-blue-400 text-sm"></i>
+                        </div>
+                        <span class="font-medium">MySQL</span>
+                    </div>
+                    <div class="flex items-center p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                        <div class="w-8 h-8 bg-red-100 dark:bg-red-900/20 rounded-full flex items-center justify-center mr-3">
+                            <i class="fab fa-npm text-red-500 text-sm"></i>
+                        </div>
+                        <span class="font-medium">npm</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Soft Skills -->
+            <div data-aos="fade-up" data-aos-delay="400" class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
+                <div class="flex items-center mb-6">
+                    <div class="w-10 h-10 bg-blue-100 dark:bg-blue-900/50 rounded-lg flex items-center justify-center mr-4">
+                        <i class="fas fa-brain text-blue-600 dark:text-blue-400 text-lg"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold font-poppins text-blue-600 dark:text-blue-400">Soft Skills</h3>
+                </div>
+                <div class="grid grid-cols-2 gap-3">
+                    <div class="flex items-center p-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-lg transition-colors">
+                        <div class="w-6 h-6 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-lightbulb text-blue-500 text-xs"></i>
+                        </div>
+                        <span>Problem Solving</span>
+                    </div>
+                    <div class="flex items-center p-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-lg transition-colors">
+                        <div class="w-6 h-6 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-users text-green-500 text-xs"></i>
+                        </div>
+                        <span>Team Collaboration</span>
+                    </div>
+                    <div class="flex items-center p-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-lg transition-colors">
+                        <div class="w-6 h-6 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-comments text-purple-500 text-xs"></i>
+                        </div>
+                        <span>Communication</span>
+                    </div>
+                    <div class="flex items-center p-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-lg transition-colors">
+                        <div class="w-6 h-6 bg-yellow-100 dark:bg-yellow-900/30 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-clock text-yellow-500 text-xs"></i>
+                        </div>
+                        <span>Time Management</span>
+                    </div>
+                    <div class="flex items-center p-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-lg transition-colors">
+                        <div class="w-6 h-6 bg-red-100 dark:bg-red-900/30 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-random text-red-500 text-xs"></i>
+                        </div>
+                        <span>Adaptability</span>
+                    </div>
+                    <div class="flex items-center p-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-lg transition-colors">
+                        <div class="w-6 h-6 bg-indigo-100 dark:bg-indigo-900/30 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-search text-indigo-500 text-xs"></i>
+                        </div>
+                        <span>Critical Thinking</span>
+                    </div>
+                    <div class="flex items-center p-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-lg transition-colors">
+                        <div class="w-6 h-6 bg-pink-100 dark:bg-pink-900/30 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-search-plus text-pink-500 text-xs"></i>
+                        </div>
+                        <span>Attention to Detail</span>
+                    </div>
+                    <div class="flex items-center p-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-lg transition-colors">
+                        <div class="w-6 h-6 bg-teal-100 dark:bg-teal-900/30 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-tasks text-teal-500 text-xs"></i>
+                        </div>
+                        <span>Project Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 bg-gray-100 dark:bg-gray-800 transition-colors duration-300">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+                
+                <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+                    
+                    <!-- Project 1 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-image bg-gradient-to-r from-blue-500 to-indigo-600">
+                            <i class="fas fa-robot text-5xl text-white"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="text-xl font-semibold font-poppins">AI-Powered Conversational Chatbot</h3>
+                            <p class="text-gray-600 dark:text-gray-300 mt-3">
+                                A sophisticated chatbot leveraging Natural Language Processing (NLP) to provide 
+                                intelligent responses and assist users with various queries and tasks.
+                            </p>
+                            <div class="mt-4 flex flex-wrap gap-2">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">NLP</span>
+                                <span class="tech-tag">Machine Learning</span>
+                                <span class="tech-tag">API Integration</span>
+                            </div>
+                            <div class="mt-6 flex space-x-4">
+                                <a href="https://github.com/karthiksuresh007/context-aware-chatty.git" target="_blank" class="btn-outline-primary">
+                                    <i class="fab fa-github mr-2"></i>
+                                    View Code
+                                </a>
+                                <a href="https://context-aware-chatty.lovable.app/  " target="_blank" class="btn-outline-secondary">
+                                    <i class="fas fa-external-link-alt mr-2"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+<div class="project-card" data-aos="fade-up" data-aos-delay="200">
+    <div class="project-image bg-gradient-to-r from-orange-500 to-red-600">
+        <i class="fas fa-film text-5xl text-white"></i>
+    </div>
+    <div class="project-content">
+        <h3 class="text-xl font-semibold font-poppins">Movie Rating and Review Platform</h3>
+        <p class="text-gray-600 dark:text-gray-300 mt-3">
+            A feature-rich platform allowing users to browse, rate, and review movies, with 
+            personalized recommendations based on user preferences and viewing history.
+        </p>
+        <div class="mt-4 flex flex-wrap gap-2">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Express</span>
+            <span class="tech-tag">MongoDB</span>
+            <span class="tech-tag">RESTful API</span>
+        </div>
+        <div class="mt-6 flex space-x-4">
+            <a href="https://github.com/karthiksuresh007/cinemania-unlocked-universe.git" target="_blank" class="btn-outline-primary">
+                <i class="fab fa-github mr-2"></i>
+                View Code
+            </a>
+            <a href="https://cinemania-unlocked-universe.lovable.app/" target="_blank" class="btn-outline-secondary">
+                <i class="fas fa-external-link-alt mr-2"></i>
+                Live Demo
+            </a>
+        </div>
+    </div>
+</div>
+                    
+                  <!-- Project 3 -->
+<div class="project-card" data-aos="fade-up" data-aos-delay="300">
+    <div class="project-image bg-gradient-to-r from-green-500 to-teal-600">
+        <i class="fas fa-shopping-cart text-5xl text-white"></i>
+    </div>
+    <div class="project-content">
+        <h3 class="text-xl font-semibold font-poppins">E-commerce Platform</h3>
+        <p class="text-gray-600 dark:text-gray-300 mt-3">
+            A comprehensive e-commerce solution with product browsing, cart functionality,
+            secure checkout, and user account management.
+        </p>
+        <div class="mt-4 flex flex-wrap gap-2">
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Redux</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">MongoDB</span>
+        </div>
+        <div class="mt-6 flex space-x-4">
+            <a href="https://glittering-fudge-305faf.netlify.app/" target="_blank" class="btn-outline-primary">
+                <i class="fab fa-github mr-2"></i>
+                View Code
+            </a>
+            <a href="https://glittering-fudge-305faf.netlify.app/" target="_blank" class="btn-outline-secondary">
+                <i class="fas fa-external-link-alt mr-2"></i>
+                Live Demo
+            </a>
+        </div>
+    </div>
+</div>
+                    
+                    <!-- Project 4 -->
+<div class="project-card" data-aos="fade-up" data-aos-delay="400">
+    <div class="project-image bg-gradient-to-r from-purple-500 to-pink-600">
+        <i class="fas fa-tasks text-5xl text-white"></i>
+    </div>
+    <div class="project-content">
+        <h3 class="text-xl font-semibold font-poppins">Task Management Application</h3>
+        <p class="text-gray-600 dark:text-gray-300 mt-3">
+            A productivity tool for managing tasks, setting priorities, tracking progress,
+            and collaborating with team members in real-time.
+        </p>
+        <div class="mt-4 flex flex-wrap gap-2">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">Material UI</span>
+            <span class="tech-tag">Authentication</span>
+        </div>
+        <div class="mt-6 flex space-x-4">
+            <a href="https://github.com/karthiksuresh007/nimble-work-forge.git" target="_blank" class="btn-outline-primary">
+                <i class="fab fa-github mr-2"></i>
+                View Code
+            </a>
+            <a href="https://nimble-work-forge.vercel.app/" target="_blank" class="btn-outline-secondary">
+                <i class="fas fa-external-link-alt mr-2"></i>
+                Live Demo
+            </a>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </section>
+
+      <!-- Education & Achievements Section -->
+<section id="education" class="py-20">
+    <div class="container mx-auto px-6">
+      <h2 class="section-title" data-aos="fade-up">Education & Achievements</h2>
+  
+      <div class="mt-12 grid md:grid-cols-2 gap-12">
+        <!-- Left Column: Education -->
+        <div class="border-l-4 border-blue-500 dark:border-blue-400 pl-6 py-2 space-y-12 relative">
+          <div class="absolute -left-2 top-1 h-full w-0.5 bg-blue-500 dark:bg-blue-400 z-0"></div>
+  
+          <!-- B.Tech -->
+          <div class="relative z-10 group transition-transform duration-300 hover:-translate-y-1" data-aos="fade-up" data-aos-delay="100">
+            <div class="absolute -left-10 top-1 w-4 h-4 rounded-full bg-blue-500 dark:bg-blue-400 border-4 border-white dark:border-gray-900 shadow-lg animate-pulse"></div>
+            <div class="bg-white dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 rounded-xl shadow-xl p-6 transition-all duration-300 hover:shadow-2xl">
+              <h4 class="font-semibold text-xl text-blue-700 dark:text-blue-400">Bachelor of Technology</h4>
+              <p class="text-gray-600 dark:text-gray-400 mt-1">Computer Science and Engineering</p>
+              <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">CGPA: 7.48 • Since Aug 2022</p>
+              <div class="mt-4 space-y-2 transition-all duration-500 group-hover:opacity-100 opacity-0">
+                <p class="text-gray-700 dark:text-gray-300 font-medium">Core Courses:</p>
+                <ul class="list-disc list-inside text-gray-600 dark:text-gray-400 text-sm space-y-1">
+                  <li>Data Structures & Algorithms</li>
+                  <li>Operating Systems</li>
+                  <li>DBMS</li>
+                  <li>Computer Networks</li>
+                  <li>Software Engineering</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Intermediate -->
+          <div class="relative z-10 group transition-transform duration-300 hover:-translate-y-1" data-aos="fade-up" data-aos-delay="200">
+            <div class="absolute -left-10 top-1 w-4 h-4 rounded-full bg-blue-500 dark:bg-blue-400 border-4 border-white dark:border-gray-900 shadow-lg animate-pulse"></div>
+            <div class="bg-white dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 rounded-xl shadow-xl p-6 transition-all duration-300 hover:shadow-2xl">
+              <h4 class="font-semibold text-xl text-blue-700 dark:text-blue-400">Kendriya Vidyalaya No 2 Jhansi Cantt</h4>
+              <p class="text-gray-600 dark:text-gray-400 mt-1">Intermediate – <strong>85%</strong></p>
+              <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Jhansi, Uttar Pradesh</p>
+              <p class="text-sm text-gray-500 dark:text-gray-400">April 2019 – March 2021</p>
+              <div class="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                <p class="text-gray-700 dark:text-gray-300 font-medium mb-2">Highlight:</p>
+                <ul class="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 space-y-1">
+                  <li>Top 10% performer in board exams</li>
+                  <li>Solid foundation in PCM subjects</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Matriculation -->
+          <div class="relative z-10 group transition-transform duration-300 hover:-translate-y-1" data-aos="fade-up" data-aos-delay="300">
+            <div class="absolute -left-10 top-1 w-4 h-4 rounded-full bg-blue-500 dark:bg-blue-400 border-4 border-white dark:border-gray-900 shadow-lg animate-pulse"></div>
+            <div class="bg-white dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 rounded-xl shadow-xl p-6 transition-all duration-300 hover:shadow-2xl">
+              <h4 class="font-semibold text-xl text-blue-700 dark:text-blue-400">Kendriya Vidyalaya Palampur</h4>
+              <p class="text-gray-600 dark:text-gray-400 mt-1">Matriculation – <strong>93.4%</strong></p>
+              <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Palampur, Himachal Pradesh</p>
+              <p class="text-sm text-gray-500 dark:text-gray-400">April 2018 – March 2019</p>
+              <div class="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                <p class="text-gray-700 dark:text-gray-300 font-medium mb-2">Highlight:</p>
+                <ul class="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 space-y-1">
+                  <li>Top 3 rank in school</li>
+                  <li>Won Science Fair district-level prize</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Right Column: Achievements & Certifications -->
+        <div class="space-y-6">
+          <h3 class="text-2xl font-bold text-blue-600 dark:text-blue-400 mb-4" data-aos="fade-up">Achievements & Certifications</h3>
+  
+          <!-- All achievement cards go here (no change to their inner structure) -->
+      
+          <!-- ... Insert all the other achievement blocks here as-is ... -->  <!-- HackerRank -->
+        <div class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <div class="w-full">
+              <h4 class="font-semibold">HackerRank 5-star Rating</h4>
+              <p class="text-gray-600 dark:text-gray-300">
+                Achieved 4-star rating in C++, Java, and Problem Solving
+              </p>
+              <a
+                href="https://www.hackerrank.com/profile/satyam7803"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mt-2 text-sm inline-flex items-center gap-1 text-blue-600 dark:text-blue-400 hover:underline"
+              >
+                <i class="fab fa-hackerrank"></i> View Profile
+              </a>
+            </div>
+          </div>
+    
+          <!-- DSA -->
+          <div class="achievement-card">
+            <div class="achievement-icon"><i class="fas fa-certificate"></i></div>
+            <div class="w-full">
+              <h4 class="font-semibold">Complete Interview Preparation - Self-Paced (C++) | GFG. </h4>
+              <p class="text-gray-600 dark:text-gray-300">Completed this DSA course on Geeksforgeeks – June 2024</p>
+              <button
+                onclick="toggleCertificate('cert-dsa')"
+                class="mt-2 text-sm inline-flex items-center gap-1 text-blue-600 dark:text-blue-400 hover:underline"
+              >
+                <i class="fas fa-eye"></i> View Certificate
+              </button>
+              <div id="cert-dsa" class="hidden mt-3">
+                <img src="src/assets/certificates/gfg.png" alt="DSA Certificate" class="rounded-lg border shadow-md max-w-full" />
+              </div>
+            </div>
+          </div>
+    
+          <!-- PHP -->
+          <div class="achievement-card">
+            <div class="achievement-icon"><i class="fas fa-certificate"></i></div>
+            <div class="w-full">
+              <h4 class="font-semibold">Building Web Applications in PHP</h4>
+              <p class="text-gray-600 dark:text-gray-300">Backend dev with PHP on Coursera – May 2024</p>
+              <button
+                onclick="toggleCertificate('cert-php')"
+                class="mt-2 text-sm inline-flex items-center gap-1 text-blue-600 dark:text-blue-400 hover:underline"
+              >
+                <i class="fas fa-eye"></i> View Certificate
+              </button>
+              <div id="cert-php" class="hidden mt-3">
+                <img src="src/assets/certificates/php.jpg" alt="PHP Certificate" class="rounded-lg border shadow-md max-w-full" />
+              </div>
+            </div>
+          </div>
+    
+          <!-- Node.js -->
+          <div class="achievement-card">
+            <div class="achievement-icon"><i class="fas fa-certificate"></i></div>
+            <div class="w-full">
+              <h4 class="font-semibold">The Complete Full-Stack Web Development Bootcamp</h4>
+              <p class="text-gray-600 dark:text-gray-300">Full-stack bootcamp by Dr. Angela Yu -Udemy – July 2023</p>
+              <button
+                onclick="toggleCertificate('cert-node')"
+                class="mt-2 text-sm inline-flex items-center gap-1 text-blue-600 dark:text-blue-400 hover:underline"
+              >
+                <i class="fas fa-eye"></i> View Certificate
+              </button>
+              <div id="cert-node" class="hidden mt-3">
+                <img src="" alt="Node.js Certificate" class="rounded-lg border shadow-md max-w-full" />
+              </div>
+            </div>
+          </div>
+    
+          <!-- Full-Stack Bootcamp -->
+          <div class="achievement-card">
+            <div class="achievement-icon"><i class="fas fa-certificate"></i></div>
+            <div class="w-full">
+              <h4 class="font-semibold">Full-Stack Web Dev Bootcamp (2024)</h4>
+              <p class="text-gray-600 dark:text-gray-300">Angela Yu’s complete Udemy bootcamp – Sep 2023</p>
+              <button
+                onclick="toggleCertificate('cert-fullstack')"
+                class="mt-2 text-sm inline-flex items-center gap-1 text-blue-600 dark:text-blue-400 hover:underline"
+              >
+                <i class="fas fa-eye"></i> View Certificate
+              </button>
+              <div id="cert-fullstack" class="hidden mt-3">
+                <img src="src/assets/certificates/fully.jpg" alt="Full-Stack Certificate" class="rounded-lg border shadow-md max-w-full" />
+              </div>
+            </div>
+          </div>
+    
+          <!-- Social Network Analysis -->
+          
+  
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-gray-100 dark:bg-gray-800 transition-colors duration-300">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+                
+                <div class="mt-12 grid md:grid-cols-2 gap-10">
+                    <div data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="text-xl font-semibold font-poppins text-blue-600 dark:text-blue-400 mb-6">Contact Information</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-8">
+                            Feel free to reach out to me for collaboration opportunities, project inquiries, or just to say hello. 
+                            I'm always open to discussing new projects and ideas.
+                        </p>
+                        
+                        <div class="space-y-4">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-800 dark:text-gray-200">Email</h4>
+                                    <a href="mailto:satyam7803@gmail.com" class="text-blue-600 dark:text-blue-400 hover:underline">satyam7803@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-800 dark:text-gray-200">Location</h4>
+                                    <p class="text-gray-600 dark:text-gray-300">India</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-800 dark:text-gray-200">Social Profiles</h4>
+                                    <div class="flex space-x-4 mb-4">
+                                        <a href="https://github.com/satyams2407" target="_blank" class="social-icon-footer">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="linkedin.com/in/satyam-singh-2a7464363" target="_blank" class="social-icon-footer">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                                
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    <div data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="text-xl font-semibold font-poppins text-blue-600 dark:text-blue-400 mb-6">Send Me a Message</h3>
+                        <form class="space-y-4" action="https://formspree.io/f/manowavo" method="POST">
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Name</label>
+                                    <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                                </div>
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email</label>
+                                    <input type="email" id="email" name="email" class="form-input" placeholder="Your email" required>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="subject" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-input" placeholder="Subject" required>
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Message</label>
+                                <textarea id="message" name="message" rows="5" class="form-input" placeholder="Your message" required></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn-primary w-full">
+                                    Send Message
+                                    <i class="fas fa-paper-plane ml-2"></i>
+                                </button>
+                            </div>
+                        </form>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </section>
+        <!-- Quote Section - Centered Outro -->
+<div class="mt-16">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="quote-box bg-gradient-to-r from-blue-100 to-blue-200 dark:from-gray-800 dark:to-gray-700 border-l-4 border-blue-500 dark:border-blue-400 p-8 rounded-xl shadow-2xl">
+        <p id="quote-typer" class="text-2xl md:text-3xl font-handwriting text-gray-800 dark:text-gray-200 leading-relaxed"></p>
+        <p class="mt-4 text-blue-600 dark:text-blue-400 font-semibold text-lg">– Satyam Singh</p>
+      </div>
+    </div>
+  </div>
+  
+          
+          
+    </main>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div id="resume-toast" class="fixed bottom-6 right-6 bg-green-600 text-white py-2 px-4 rounded-lg shadow-lg hidden transition-all duration-300">
+            ✅ Resume download started!
+        </div>
+        
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="text-2xl font-bold text-blue-400 font-poppins">KS</a>
+                    <p class="text-gray-400 mt-2 max-w-md">Building exceptional digital experiences with modern technologies and clean code.</p>
+                </div>
+                
+                <div class="flex flex-col items-center md:items-end">
+                    <div class="flex space-x-4 mb-4">
+                        <a href="https://github.com/satyams2407" target="_blank" class="social-icon-footer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="linkedin.com/in/satyam-singh-2a7464363" target="_blank" class="social-icon-footer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        
+                    </div>
+                    <p class="text-gray-500">© 2025 Satyam Singh. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition-all transform scale-0 duration-300">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="./src/main.js"></script>
+
+    
+</body>
+</html>
+
+<div class="text-center text-sm text-gray-500 dark:text-gray-400 mt-2">
+    Visitor #<span id="visitor-count">...</span>
+</div>
