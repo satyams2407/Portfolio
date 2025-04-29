@@ -109,10 +109,13 @@
                             <div class="absolute -inset-1 bg-blue-500 rounded-lg blur opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                           </div>
 
-                          <button id="download-resume" class="btn-primary magnetic-btn inline-flex items-center gap-2 group">
-                            <i class="fas fa-file-download group-hover:scale-125 transition-transform"></i>
-                            Download My Resume
-                          </button>
+                          
+                          <a href="/SatyamSingh.pdf" download="Satyam Singh">
+                            <button id="download-resume" class="btn-primary magnetic-btn inline-flex items-center gap-2 group">
+                                <i class="fas fa-file-download group-hover:scale-125 transition-transform"></i>
+                                Download My Resume
+                            </button>
+                          </a>
                                               
                     </div>
                 </div>
@@ -1185,22 +1188,23 @@
             });
         
         
-            document.getElementById('download-resume').addEventListener('click', () => {
-                const link = document.createElement('a');
-                link.href = 'SatyamSingh.pdf'; // Adjust this if your file path is different
-                link.download = 'SatyamSingh.pdf'; // This sets the downloaded filename
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
+        //     document.getElementById('download-resume').addEventListener('click', () => {
+        //         const link = document.createElement('a');
+        //         link.href = 'SatyamSingh.pdf'; // Adjust this if your file path is different
+        //         link.download = 'SatyamSingh.pdf'; // This sets the downloaded filename
+        //         document.body.appendChild(link);
+        //         link.click();
+        //         document.body.removeChild(link);
         
-                const toast = document.getElementById('resume-toast');
-            toast.classList.remove('hidden');
-            setTimeout(() => {
-                toast.classList.add('hidden');
-            }, 3000);
+        //         const toast = document.getElementById('resume-toast');
+        //     toast.classList.remove('hidden');
+        //     setTimeout(() => {
+        //         toast.classList.add('hidden');
+        //     }, 3000);
         
         
-            });
+        //     }
+        // );
             
         
             function toggleCertificate(id) {
